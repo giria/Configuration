@@ -1,0 +1,16 @@
+//
+//  Release.xcconfig
+//  Configuration
+//
+//  Created by Joan Barrull on 21/12/2020.
+//  Copyright © 2020 Joan Barrull. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CS_APP_NAME = Config Release
+CS_APP_VERSION = 0.1
+CS_APP_BUNDLE_ID = com.worldpay.Configuration
+CS_APP_ICON = AppIconRelease
+BACKEND_URL = http:\/\/api.intensifystudio.com/
