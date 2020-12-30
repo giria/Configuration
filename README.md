@@ -17,3 +17,8 @@ Now we are going to create a new configuration. Let’s just call it “Staging�
 
 
 <image src="images/duplicateConf.png" />
+
+In the first cell of the row that just appeared, fill in Staging. Once done, you now have three levels of configuration.
+
+
+<image src="images/stagingConf.png" />
