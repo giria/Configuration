@@ -32,4 +32,10 @@ Now go back to the project to create a .xcconfig file. In the project navigator,
 
 <image src="images/xconf.png" />
 
+Now go to your project’s info screen, under the configurations section expand the list and select the xcconfile “Staging” from the drop down box.
+
+<image src="images/staging.png" />
+
+Once done, you can repeat the process for the main target and choose the Debug file. Also, repeat the process for the Release Target.
+<image src="images/finalConf.png" />
 
