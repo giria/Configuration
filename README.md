@@ -22,3 +22,14 @@ In the first cell of the row that just appeared, fill in Staging. Once done, you
 
 
 <image src="images/stagingConf.png" />
+
+
+# Using Xcode Configuration File (.xcconfig)
+
+An Xcode Configuration file (.xcconfig) is  a key/value based file. You can store your build settings in the form of key/value pairs, similar to what you did in dictionaries. By using a .xcconfig file, it is very easy to define build parameters for each build. You will understand what I mean in a while.
+
+Now go back to the project to create a .xcconfig file. In the project navigator, right click the project folder and chooose New file…. In the dialog that pops up, select the Configurations Settings File. In the next screen, give it the name “Staging” and make sure the targets checkboxes are all unchecked, because you don’t want to include this in your app’s bundle.
+
+<image src="images/xconf.png" />
+
+
