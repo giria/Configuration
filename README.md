@@ -13,4 +13,7 @@ How can you efficiently manage all these build variants with the same code base 
 
 First, let’s create a new project using Xcode. Select the top-level element in the project navigator and make sure the “YOUR_PROJECT_NAME” item in the Project section is selected. Once done, you should see that Xcode already provides you two different configuration levels: Debug and Release. If you didnt’ aware that before, this means you can create a build for debug and another one for release with a different setting.
 
+Now we are going to create a new configuration. Let’s just call it “Staging”. Click on the + sign right beneath the configuration list and select “Duplicate Debug configuration” as it’s much easier to remove the things we don’t want from the Debug configuration than putting back in those we need to the Release configuration.
 
+
+<image src="images/duplicateConf.png" />
