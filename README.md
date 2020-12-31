@@ -73,5 +73,15 @@ BACKEND_URL = http:\/\/api.intensifystudio.com/
 You can use your configuration variables in project settings, info.plist and entitlement files. In this example, we will use it inside info.plist to change app name,app version, and bundle identifier like shown below:
 
 
-```
-``` 
+<image src="images/infoPlist.png" />
+
+For clarity, we are using a custom prefix “CS”  to distguish the custom key from the default one.
+
+# Changing App Icon
+
+With the Xcode configuration files, you can now easily configure the app icon for different builds. The procedures of customizing the App Icon for different builds are the same as the one as we discussed in the previous section, except that the variable will be used inside Build settings.
+
+Once done, switch to Build Settings and replace AppIcon with the variable ${CS_APP_ICON}:
+
+<image src="images/xcode-build-settings.gif" />
+
