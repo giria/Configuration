@@ -39,3 +39,39 @@ Now go to your project’s info screen, under the configurations section expand 
 Once done, you can repeat the process for the main target and choose the Debug file. Also, repeat the process for the Release Target.
 <image src="images/finalConf.png" />
 
+# Changing the Build Information
+
+nce you have the Xcode configuration files setup, it is pretty straightforwad to change the build. Say, you want to change the build information like app name, app version, bundle identifier, and bundle version for each build, you can edit each of the .xcconfig file like this:
+
+
+**Debug.xcconfig:**
+```
+CS_APP_NAME = Configuration Debug
+CS_APP_VERSION = 0.3
+CS_APP_BUNDLE_ID = com.worldpay.Configuration
+CS_APP_ICON = AppIconDebug
+BACKEND_URL = http:\/\/api.intensifystudio.com/development
+```
+
+**Staging.xcconfig:**
+```
+CS_APP_NAME = Configuration Staging
+CS_APP_VERSION = 0.2
+CS_APP_BUNDLE_ID = com.worldpay.Configuration
+CS_APP_ICON = AppIconStaging
+BACKEND_URL = http:\/\/api.intensifystudio.com/staging
+```
+**Release.xcconfig:**
+```
+CS_APP_NAME = Config Release
+CS_APP_VERSION = 0.1
+CS_APP_BUNDLE_ID = com.worldpay.Configuration
+CS_APP_ICON = AppIconRelease
+BACKEND_URL = http:\/\/api.intensifystudio.com/
+```
+
+You can use your configuration variables in project settings, info.plist and entitlement files. In this example, we will use it inside info.plist to change app name,app version, and bundle identifier like shown below:
+
+
+```
+``` 
